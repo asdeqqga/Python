@@ -1,13 +1,12 @@
 """
 날짜 : 2023/01/02
 이름 : 라성준
-내용 : 백준 문제 1단계 11번
+내용 : 백준 문제 1단계 2588번
 """
-a = int(input())
-b = input()
+num1 = int(input())
+num2 = int(input())
 
-
-print(a * int(b[2]))
-print(a * int(b[1]))
-print(a * int(b[0]))
-print(a * int(b))
+print(num1 * (num2%10))
+print(num1 * ((num2%100)//10))
+print(num1 * (num2//100))
+print(num1 * num2)
